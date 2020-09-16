@@ -43,6 +43,8 @@ if(vehMiss.includes("GW-Messtechnik")){colorButt(12345678);}
 if(vehMiss.includes("GW-Gefahrgut")){colorButt(12345678);}
 if(vehMiss.includes("GW-Höhenrettung")){colorButt(12345678);}
 if(vehMiss.includes("ULF")){colorButt(12345678);}
+if(vehMiss.includes("Flugfeldlöschfahrzeuge")){colorButt(12345678);}
+if(vehMiss.includes("Rettungstreppe")){colorButt(12345678);}
 
 
 //Polizei
