@@ -1,10 +1,10 @@
 // ==UserScript==
 // @name         RequiredVehicleMarker
-// @version      0.3
+// @version      0.31
 // @description  Hebt die AAO-Buttons zur Alarmierung eines Fahrzeuges entsprechenden Types im Einsatzfenster hervor, wenn verfügbar. AAO_IDs muessen zuvor eingegeben werden.
 // @author       Cyclefly
 // @include      *://www.leitstellenspiel.de/missions/*
-// @updateURL    https://github.com/Cyclefly/RequiredVehicleMarker/blob/main/RequiredVehicleMarker.js
+// @updateURL    https://github.com/Cyclefly/RequiredVehicleMarker/raw/main/RequiredVehicleMarker.user.js
 // ==/UserScript==
 var vehMiss = document.getElementById("missing_text").textContent;
 function colorButt(aaoID){
