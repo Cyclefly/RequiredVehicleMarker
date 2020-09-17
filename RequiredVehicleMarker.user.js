@@ -15,15 +15,16 @@ function colorButt(aaoID){
 
 
 //ANLEITUNG:
-//NICHT VORHANDENE FAHRZEUGE AUSKOMMENTIEREN UND RESTLICHE MIT AAO-ID VERSEHEN
+//NICHT VORHANDENE FAHRZEUGE AUSKOMMENTIEREN UND RESTLICHE MIT AAO ID VERSEHEN
 //BEISPIEL:
 //if(vehMiss.includes("FAHRZEUGTEXT")){colorButt(AAO_ID);}
 //MIT:
 //FAHRZEUGTEXT: TEXT DES FAHRZEUGES UNTER 'Zusätzlich benötigte Fahrzeuge'
 //AAO_ID: SIEHE Strg+Klick AUF AAO EINTRAG DES FAHRZEUGES
-//Beispiel - Spieler ersetzt ELW1 durch ELW2:
+//Beispiel 1 - Spieler ersetzt ELW1 durch ELW2:
 //if(vehMiss.includes("ELW 2") || vehMiss.includes("ELW 1")){colorButt(12345678);}
-
+//Beispiel2 - SEK / MEK Fahrzeug benoetigt, sowohl ZF als auch MTF moeglich:
+//if(vehMiss.includes("SEK-Fahrzeuge")){colorButt(12345678);colorButt(12345679);} 
 
 //Feuerwehr//
 if(vehMiss.includes("Löschfahrzeug")){colorButt(12345678);}
@@ -45,11 +46,12 @@ if(vehMiss.includes("GW-Höhenrettung")){colorButt(12345678);}
 if(vehMiss.includes("ULF")){colorButt(12345678);}
 if(vehMiss.includes("Flugfeldlöschfahrzeuge")){colorButt(12345678);}
 if(vehMiss.includes("Rettungstreppe")){colorButt(12345678);}
+if(vehMiss.includes("GW-Taucher")){colorButt(12345678);}
 
 
 //Polizei
-if(vehMiss.includes("SEK-Fahrzeuge")){colorButt(12345678);}
-if(vehMiss.includes("MEK-Fahrzeuge")){colorButt(12345678);}
+if(vehMiss.includes("SEK-Fahrzeuge")){colorButt(12345678);colorButt(12345678);} //ZF / MTF
+if(vehMiss.includes("MEK-Fahrzeuge")){colorButt(12345678);colorButt(12345678);} //ZF / MTF
 if(vehMiss.includes("FuStW")){colorButt(12345678);}
 if(vehMiss.includes("Polizeihubschrauber")){colorButt(12345678);}
 if(vehMiss.includes("GruKw")){colorButt(12345678);}
@@ -68,4 +70,5 @@ if(vehMiss.includes("LKW Kipper")){colorButt(12345678);}
 
 
 //Rettung
+if(vehMiss.includes("Rettungshundestaffel")){colorButt(12345678);}
 //if(vehMiss.includes("")){colorButt(12345678);}
