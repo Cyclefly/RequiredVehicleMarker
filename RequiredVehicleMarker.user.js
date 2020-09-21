@@ -26,7 +26,10 @@ function colorButt(aaoID){
 //Beispiel2 - SEK / MEK Fahrzeug benoetigt, sowohl ZF als auch MTF moeglich:
 //if(vehMiss.includes("SEK-Fahrzeuge")){colorButt(12345678);colorButt(12345679);} 
 
+
 //Feuerwehr//
+if(vehMiss.includes("l. Wasser")){colorButt(12345678);} //Loeschfahrzeuge, z.B.TLF
+if(vehMiss.includes("Feuerwehrleute")){colorButt(12345678);} //z.B: MTW
 if(vehMiss.includes("Löschfahrzeug")){colorButt(12345678);}
 if(vehMiss.includes("Drehleiter")){colorButt(12345678);}
 if(vehMiss.includes("FwK")){colorButt(12345678);}
