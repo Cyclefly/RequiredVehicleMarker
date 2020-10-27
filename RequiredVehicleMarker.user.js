@@ -27,51 +27,49 @@ function colorButt(aaoID){
 //if(vehMiss.includes("SEK-Fahrzeuge")){colorButt(12345678);colorButt(12345679);} 
 
 
-//Feuerwehr//
-if(vehMiss.includes("l. Wasser")){colorButt(12345678);} //Loeschfahrzeuge, z.B.TLF
-if(vehMiss.includes("Feuerwehrleute")){colorButt(12345678);} //z.B: MTW
-if(vehMiss.includes("Löschfahrzeug")){colorButt(12345678);}
-if(vehMiss.includes("Drehleiter")){colorButt(12345678);}
-if(vehMiss.includes("FwK")){colorButt(12345678);}
-if(vehMiss.includes("GW-A")){colorButt(12345678);}
-if(vehMiss.includes("GW-Öl")){colorButt(12345678);}
-if(vehMiss.includes("Schlauchwagen")){colorButt(12345678);}
-if(vehMiss.includes("ELW 1")){colorButt(12345678);}
-if(vehMiss.includes("ELW 2")){colorButt(12345678);}
-if(vehMiss.includes("Rettungstreppe")){colorButt(12345678);}
-if(vehMiss.includes("GW-Werkfeuerwehr")){colorButt(12345678);}
-if(vehMiss.includes("Turbolöscher")){colorButt(12345678);}
-if(vehMiss.includes("Teleskopmast")){colorButt(12345678);}
-if(vehMiss.includes("Dekon-P")){colorButt(12345678);}
-if(vehMiss.includes("GW-Messtechnik")){colorButt(12345678);}
-if(vehMiss.includes("GW-Gefahrgut")){colorButt(12345678);}
-if(vehMiss.includes("GW-Höhenrettung")){colorButt(12345678);}
-if(vehMiss.includes("ULF")){colorButt(12345678);}
-if(vehMiss.includes("Flugfeldlöschfahrzeug")){colorButt(12345678);}
-if(vehMiss.includes("Rettungstreppe")){colorButt(12345678);}
-if(vehMiss.includes("GW-Taucher")){colorButt(12345678);}
+//Feuerwehr
+if(vehMiss.includes("l. Wasser")){colorButt(12815015);colorButt(12814826);} //Loeschfahrzeuge, z.B.TLF
+if(vehMiss.includes("Feuerwehrleute")){colorButt(12814826);} //z.B: MTW
+if(vehMiss.includes("Löschfahrzeug")){colorButt(12814826);}
+if(vehMiss.includes("Drehleiter")){colorButt(12814828);}
+if(vehMiss.includes("FwK")){colorButt(12814831);}
+if(vehMiss.includes("GW-A")){colorButt(12814832);}
+if(vehMiss.includes("GW-Öl")){colorButt(12814836);}
+if(vehMiss.includes("Schlauchwagen")){colorButt(12814837);}
+if(vehMiss.includes("ELW 2") || vehMiss.includes("ELW 1")){colorButt(12814829);}
+if(vehMiss.includes("Rettungstreppe")){colorButt(13357463);}
+if(vehMiss.includes("GW-Werkfeuerwehr")){colorButt(13327238);}
+if(vehMiss.includes("Turbolöscher")){colorButt(13327296);}
+if(vehMiss.includes("Teleskopmast")){colorButt(13327239);}
+if(vehMiss.includes("Dekon-P")){colorButt(12814827);}
+if(vehMiss.includes("GW-Messtechnik")){colorButt(12814835);}
+if(vehMiss.includes("GW-Gefahrgut")){colorButt(12814833);}
+if(vehMiss.includes("GW-Höhenrettung")){colorButt(12814834);}
+if(vehMiss.includes("ULF")){colorButt(13327295);}
+if(vehMiss.includes("Flugfeldlöschfahrzeug")){colorButt(13357465);}
+if(vehMiss.includes("Rettungstreppe")){colorButt(13357463);}
 
 
 //Polizei
-if(vehMiss.includes("SEK-Fahrzeuge")){colorButt(12345678);colorButt(12345678);} //ZF / MTF
-if(vehMiss.includes("MEK-Fahrzeuge")){colorButt(12345678);colorButt(12345678);} //ZF / MTF
-if(vehMiss.includes("FuStW")){colorButt(12345678);}
-if(vehMiss.includes("Polizeihubschrauber")){colorButt(12345678);}
-if(vehMiss.includes("GruKw")){colorButt(12345678);}
-if(vehMiss.includes("FüKw")){colorButt(12345678);}
-if(vehMiss.includes("leBefKw")){colorButt(12345678);}
-if(vehMiss.includes("Wasserwerfer")){colorButt(12345678);}
+if(vehMiss.includes("SEK-Fahrzeug")){colorButt(13501899);colorButt(13501900);}
+if(vehMiss.includes("MEK-Fahrzeug")){colorButt(13672813);colorButt(13672814);}
+if(vehMiss.includes("FuStW")){colorButt(12814841);}
+if(vehMiss.includes("Polizeihubschrauber")){colorButt(13405973);}
+if(vehMiss.includes("GruKw")){colorButt(13292686);}
+if(vehMiss.includes("FüKw")){colorButt(13501901);}
+if(vehMiss.includes("leBefKw")){colorButt(13293167);}
+if(vehMiss.includes("Wasserwerfer")){colorButt(13561548);}
+if(vehMiss.includes("GefKw")){colorButt(13900436);}
 
 
 //THW
-if(vehMiss.includes("Gerätekraftwage")){colorButt(12345678);}
-if(vehMiss.includes("THW-Einsatzleitung")){colorButt(12345678);}
-if(vehMiss.includes("THW-Mehrzweckkraftwagen")){colorButt(12345678);}
-if(vehMiss.includes("Radlader")){colorButt(12345678);}
-if(vehMiss.includes("Anhänger Drucklufterzeugung")){colorButt(12345678);}
-if(vehMiss.includes("LKW Kipper")){colorButt(12345678);}
+if(vehMiss.includes("Gerätekraftwagen")){colorButt(13714271);}
+if(vehMiss.includes("THW-Einsatzleitung")){colorButt(13915076);}
+if(vehMiss.includes("THW-Mehrzweckkraftwagen")){colorButt(13915072);}
+if(vehMiss.includes("Radlader")){colorButt(14324897);}
+if(vehMiss.includes("Anhänger Drucklufterzeugung")){colorButt(14389321);}
+if(vehMiss.includes("LKW Kipper")){colorButt(14324893);}
 
 
 //Rettung
-if(vehMiss.includes("Rettungshundestaffel")){colorButt(12345678);}
-//if(vehMiss.includes("")){colorButt(12345678);}
+//if(vehMiss.includes("")){colorButt();}
